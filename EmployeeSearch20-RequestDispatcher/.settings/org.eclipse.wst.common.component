@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="EmployeeSearch20-RequestDispatcher">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="ojdbc6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/app/prasu/product/12.1.0/dbhome_1/inventory/backup/2020-12-16_09-00-43AM/Scripts/ext/jlib/ojdbc6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="EmployeeSearch20-RequestDispatcher"/>
+        <property name="java-output-path" value="/EmployeeSearch20-RequestDispatcher/build/classes"/>
+    </wb-module>
+</project-modules>

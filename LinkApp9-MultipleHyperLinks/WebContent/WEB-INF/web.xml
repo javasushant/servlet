@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<servlet-name>link</servlet-name>
+<servlet-class>com.nt.servlet.LinkServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>link</servlet-name>
+<url-pattern>/linksurl</url-pattern>
+</servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>links.html</welcome-file>
+  </welcome-file-list>
+</web-app>

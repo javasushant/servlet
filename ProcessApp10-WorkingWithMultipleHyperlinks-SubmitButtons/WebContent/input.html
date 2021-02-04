@@ -1,0 +1,23 @@
+
+<h1 style = "color:red;text-align: center;">HTML to servlet communication using multiple submit button and hyperlinks</h1>
+
+<form action = "processurl" method = "POST">
+<table border = "1" align ="center" bgcolor="cyan">
+<tr>
+	<td>First value  :: <input type = "text" name = "t1" placeholder="First value" ></td>
+</tr>
+<tr>
+	<td>Second value  :: <input type = "text" name = "t2" placeholder="Second value" ></td>
+</tr>
+<tr>
+<td colspan="4">
+	<input type ="submit" name ="s1" value ="add">
+	<input type ="submit" name ="s1" value ="sub">
+	<input type ="submit" name ="s1" value ="mul">
+	<input type ="submit" name ="s1" value ="div">
+	<a href = processurl?s1= "link1">sysdate</a>
+	  <a href = processurl?s1= "link2">sysprop</a>
+</td>
+</tr>
+</table>
+</form>

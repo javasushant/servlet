@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>EmployeeSearch20-RequestDispatcher</display-name>
+	<welcome-file-list>
+		<welcome-file>input.html</welcome-file>
+
+	</welcome-file-list>
+<!-- 	<servlet> <servlet-name>emp</servlet-name> <servlet-class>com.nt.servlet.EmployeeSearchServletTest</servlet-class> 
+		<init-param> <param-name>jdbcclass</param-name> <param-value>oracle.jdbc.driver.OracleDriver</param-value> 
+		</init-param> <init-param> <param-name>jdbcurl</param-name> <param-value>jdbc:oracle:thin:@localhost:1521:SYS</param-value> 
+		</init-param> <init-param> <param-name>user</param-name> <param-value>system</param-value> 
+		</init-param> <init-param> <param-name>pwd</param-name> <param-value>manager</param-value> 
+		</init-param> </servlet> <servlet-mapping> <servlet-name>emp</servlet-name> 
+		<url-pattern>/employeeurl</url-pattern> </servlet-mapping> -->
+
+	<servlet>
+		<servlet-name>errjsp</servlet-name>
+		<jsp-file>/error.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>errjsp</servlet-name>
+		<url-pattern>/errjspurl</url-pattern>
+	</servlet-mapping>
+</web-app>

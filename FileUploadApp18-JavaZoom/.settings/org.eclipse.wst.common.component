@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="FileUploadApp18-JavaZoom">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="cos.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/soft/JARS/uploadbean1.9/WEB-INF/lib/cos.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="uploadbean.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/soft/JARS/uploadbean1.9/WEB-INF/lib/uploadbean.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fileupload.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/soft/JARS/uploadbean1.9/WEB-INF/lib/fileupload.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="struts.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/soft/JARS/uploadbean1.9/WEB-INF/lib/struts.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/app/prasu/product/12.1.0/dbhome_1/inventory/backup/2020-12-16_09-00-43AM/Scripts/ext/jlib/ojdbc6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="FileUploadApp18-JavaZoom"/>
+        <property name="java-output-path" value="/FileUploadApp18-JavaZoom/build/classes"/>
+    </wb-module>
+</project-modules>

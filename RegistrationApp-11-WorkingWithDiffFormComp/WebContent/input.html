@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration page</title>
+</head>
+<body style ="bgcolor:pink">
+<h1 style = "color : red ; text-align:center"> Working with Different Types of form component</h1>
+<form action="registrationurl" method= "POST">
+<table align="center" bgcolor="cyan" border = "1">
+	<tr>
+		<td>Person Name  :: </td>
+		<td><input type = "text" name = "pname" placeholder="Enter Name"></td>
+	</tr>
+	<tr>
+		<td>Person Age  :: </td>
+		<td><input type = "text" name = "page" placeholder="Enter Age"></td>
+	</tr>
+	<tr>
+		<td>Person Address :: </td>
+		<td><<textarea name ="paddrs" rows="3" cols="15"></textarea></td>
+	</tr>
+	<tr>
+		<td>Person Gender  :: </td>
+		<td><input type = "radio" name = "gender" value = "M">Male
+		<input type = "radio" name = "gender" value = "F" checked> Female</td>
+	</tr>
+	<tr>
+		<td>Marrital Status  :: </td>
+		<td><input type = "checkbox" name = "ms" value = "married"></td>
+	</tr>
+	<tr>
+		<td>Qualification  :: </td>
+		<td><select name = "qlfy">
+			<option value ="" selected>-select- </option>
+			<option value ="engg" >-BE/B.Tech </option>
+			<option value ="medical" >-MBBS/MD</option>
+			<option value ="art" >-BA/MA </option>
+			<option value ="commerce" >-B.COM/M.COM </option>
+			<option value ="science" >-B.SC/M.SC </option>
+			<option value ="it" >-BCA/MCA </option>
+		</select></td>
+	</tr>
+	<tr>
+		<td>languages  :: </td>
+		<td><select name = "languages" multiple="3">
+			<option value ="" selected>-select- </option>
+			<option value ="hindi" selected >HINDI </option>
+			<option value ="engliah" selected>-ENGLISH</option>
+			<option value ="tamil" >-TAMIL </option>
+			<option value ="bengali" >-BENGALI </option>
+			<option value ="urdu" >-URDU </option>
+			<option value ="kannar" >-KANNAR </option>
+			<option value ="bhojpuri" >-BHOJPURI</option>
+			<option value ="marathi" >-MARATHI</option>
+			<option value ="odia" >-ODIA </option>
+		</select></td>
+	</tr>
+	<tr>
+		<td>Hobbies  :: </td>
+		<td>
+		<input type= "checkbox" name = "hb" value = "reading" checked> Reading books <br>
+		<input type= "checkbox" name = "hb" value = "watching" > watching tv<br>
+		<input type= "checkbox" name = "hb" value = "playing" > playing games <br>
+		<input type= "checkbox" name = "hb" value = "listening" > listening music <br>
+		<input type= "checkbox" name = "hb" value = "sleeping" > Sleeping late <br>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>Mobile Number  :: </td>
+		<td><input type = "tel" name = "phone" ></td>
+	</tr>
+	<tr>
+		<td>Date Of Birth  :: </td>
+		<td><input type = "date" name = "dob" ></td>
+	</tr>
+	<tr>
+		<td>time Of Birth  :: </td>
+		<td><input type = "time" name = "tob" ></td>
+	</tr>
+	<tr>
+		<td>Email id :: </td>
+		<td><input type = "email" name = "email" ></td>
+	</tr>
+	<tr>
+		<td>Favourite Colour  :: </td>
+		<td><input type = "color" name = "favColor" ></td>
+	</tr>
+	<tr>
+		<td>Salary Range  :: </td>
+		<td>10000<input type = "range" name = "salary" min="10000" max="100000" >100000</td>
+	</tr>
+	
+	<tr>
+		<td>FB url  :: </td>
+		<td><input type = "url" name = "fburl" ></td>
+	</tr>
+	<tr>
+		<td>Birth Month and Year  :: </td>
+		<td><input type = "month" name = "birthMonth" ></td>
+	</tr>
+	<tr>
+		<td>Favourite Number  :: </td>
+		<td><input type = "number" name ="favNumber" min="0" max ="9" ></td>
+	</tr>
+	<tr>
+		<td colspan="2"><input type = "submit" value = "submit"> 
+		<input type = "reset" value = "cancel"></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
