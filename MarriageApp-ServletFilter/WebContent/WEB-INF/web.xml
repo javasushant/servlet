@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                  xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+                   xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                       http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" 
+                       id="WebApp_ID" version="4.0">
+	<!-- servlet configuration -->
+	<display-name>WedApp</display-name>
+	<welcome-file-list>
+		<welcome-file>input.html</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>wedding</servlet-name>
+		<servlet-class>com.nt.servlet.EligiblityServlet</servlet-class>
+	</servlet>
+
+	<!-- servlet mapping -->
+
+	<servlet-mapping>
+		<servlet-name>wedding</servlet-name>
+		<url-pattern>/weddingurl</url-pattern>
+
+	</servlet-mapping>
+	
+
+	
+	<filter>
+		<filter-name>time</filter-name>
+		<filter-class>com.nt.filter.TimingCheckingFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>time</filter-name>
+		<url-pattern>/weddingurl</url-pattern>
+	</filter-mapping>
+	
+	<filter>
+		<filter-name>respon</filter-name>
+		<filter-class>com.nt.filter.PerformenceTestFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>respon</filter-name>
+		<url-pattern>/weddingurl</url-pattern>
+	</filter-mapping>
+	
+	<filter>
+		<filter-name>browser</filter-name>
+		<filter-class>com.nt.filter.BrowserCheckingFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>browser</filter-name>
+		<url-pattern>/weddingurl</url-pattern>
+	</filter-mapping>
+	
+</web-app>
