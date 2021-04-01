@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+	<order>
+		<name>Table</name>
+		<price>5000</price>
+	</order>
+	<order>
+		<name>Fan</name>
+		<price>6000</price>
+	</order>
+	<order>
+		<name>TV</name>
+		<price>18000</price>
+	</order>
+	<order>
+		<name>Chair</name>
+		<price>2000</price>
+	</order>
+	<order>
+		<name>Refrigerator</name>
+		<price>15000</price>
+	</order>
+</orders>
